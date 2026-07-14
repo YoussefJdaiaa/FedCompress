@@ -1,22 +1,98 @@
-# Python
+# Python cache
 __pycache__/
 *.py[cod]
 *.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
 # Virtual environments
 .venv/
 venv/
 env/
 
-# Jupyter
+# Jupyter cache
 .ipynb_checkpoints/
 
-# Local datasets and generated outputs
+# Local datasets
 data/
+datasets/
+*.csv
+*.tsv
+*.parquet
+*.npy
+*.npz
+
+# Generated results and logs
 results/
+logs/
+runs/
+wandb/
+mlruns/
+lightning_logs/
+
+# Reports and generated documents
+reports/
+docs/
+*.tex
+*.pdf
+*.docx
+*.pptx
+*.xlsx
+
+# Images and figures
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# Model checkpoints and large ML artifacts
+checkpoints/
+models/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.h5
+*.pkl
+*.joblib
+
+# Hugging Face / Torch cache if created locally
+.cache/
+huggingface/
+torch/
+
+# Archives
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# Latex temporary files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+
+# Environment and secrets
+.env
+.env.*
+*.key
+*.pem
 
 # OS / editor files
 .DS_Store
 Thumbs.db
 .vscode/
-

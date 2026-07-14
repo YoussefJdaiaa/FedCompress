@@ -1,0 +1,17 @@
+# Dependances principales du projet FedCompress.
+#
+# Ce fichier sert a reconstruire un environnement local avec :
+#   .\scripts\setup_env.ps1
+#
+# Les versions ci-dessous viennent de l'environnement utilise pour les
+# experiences actuelles. Le .venv n'est pas versionne dans Git, car il est lourd
+# et depend de la machine.
+
+--extra-index-url https://download.pytorch.org/whl/cu126
+
+torch==2.12.1+cu126
+torchvision==0.27.1+cu126
+transformers==5.12.1
+matplotlib==3.11.0
+pillow==12.3.0
+numpy==2.5.1
